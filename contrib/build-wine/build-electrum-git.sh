@@ -33,7 +33,7 @@ else
 fi
 
 cd electrum-git
-VERSION="NAV.3.6.0"
+VERSION="BRIT.3.6.0"
 echo "Last commit: $VERSION"
 
 cd ..

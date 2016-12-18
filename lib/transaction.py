@@ -851,7 +851,7 @@ class Transaction:
         size = len(self.serialize(-1))/2
         if size >= 10000:
             return True
-        # all outputs must be 0.01 NAV or larger for free tx
+        # all outputs must be 0.01 BRIT or larger for free tx
         for addr, value in self.get_outputs():
             if value < 1000000:
                 return True

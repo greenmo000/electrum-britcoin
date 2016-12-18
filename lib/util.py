@@ -35,7 +35,7 @@ import urllib
 import threading
 from i18n import _
 
-base_units = {'NAV':8, 'mNAV':5, 'uNAV':2}
+base_units = {'BRIT':8, 'mBRIT':5, 'uBRIT':2}
 
 def normalize_version(v):
     return [int(x) for x in re.sub(r'(\.0+)*$','', v).split(".")]
