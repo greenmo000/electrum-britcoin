@@ -45,8 +45,8 @@ from version import ELECTRUM_VERSION, PROTOCOL_VERSION
 DEFAULT_PORTS = {'t':'50001', 's':'50002', 'h':'8081', 'g':'8082'}
 
 DEFAULT_SERVERS = {
-        'mobile.britcoin.org':DEFAULT_PORTS,
-        'mobile2.britcoin.org':DEFAULT_PORTS,
+        'mobile.britcoin.xyz':DEFAULT_PORTS,
+        'mobile2.britcoin.xyz':DEFAULT_PORTS,
 }
 
 NODES_RETRY_INTERVAL = 60

@@ -453,7 +453,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
 
         help_menu = menubar.addMenu(_("&Help"))
         help_menu.addAction(_("&About"), self.show_about)
-        help_menu.addAction(_("&Official Britcoin Website"), lambda: webbrowser.open("https://www.britcoin.org"))
+        help_menu.addAction(_("&Official Britcoin Website"), lambda: webbrowser.open("https://www.britcoin.xyz"))
         help_menu.addSeparator()
         help_menu.addAction(_("&Electrum Documentation"), lambda: webbrowser.open("http://docs.electrum.org/")).setShortcut(QKeySequence.HelpContents)
         help_menu.addAction(_("&Report Bug"), self.show_report_bug)

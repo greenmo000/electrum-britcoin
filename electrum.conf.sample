@@ -6,7 +6,7 @@
 # that can be rewritten by the client
 
 [client]
-server = mobile.britcoin.org:5035:t
+server = mobile.britcoin.xyz:5035:t
 proxy = None
 gap_limit = 5
 # booleans use python syntax
