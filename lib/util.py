@@ -341,9 +341,18 @@ def time_difference(distance_in_time, include_seconds):
         return "over %d years" % (round(distance_in_minutes / 525600))
 
 block_explorer_info = {
-    'CryptoID.info': ('https://chainz.cryptoid.info/nav/',
+    'CryptoID.info': ('https://chainz.cryptoid.info/brit/',
+                        {'tx': 'tx.dws?', 'addr': 'address.dws?'}),
+    'CryptoBE.com': ('http://cryptobe.com/chain/BritCoin/',
+                        {'tx': 'tx.dws?', 'addr': 'address.dws?'}),
+    'CryptoBEq.com': ('http://cryptobe.com/chain/BritCoin/q/',
+                        {'tx': 'tx.dws?', 'addr': 'address.dws?'}),
+    'BritChain.org': ('http://britchain.org/',
+                        {'tx': 'tx.dws?', 'addr': 'address.dws?'}),
+    'BritChainapi.org': ('http://britchain.org/api/',
+                        {'tx': 'tx.dws?', 'addr': 'address.dws?'}),
+    'ProHashing.com': ('https://prohashing.com/explorer/Britcoin/',
                         {'tx': 'tx.dws?', 'addr': 'address.dws?'})
-   
 }
 
 def block_explorer(config):
